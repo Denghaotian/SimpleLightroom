@@ -1,0 +1,56 @@
+// Haotian Deng
+// hdeng@clemson.edu
+// Nov 26 2018 Final Project
+
+
+Usage:
+===============================================
+we have two directory
+"image_adjust" and "image_compose"
+================================================
+First go into "image_adjust" directory
+Usage:
+a)make
+	make
+b)run
+	./adjust inputimage outputimage
+        example:./adjust clemson.jpg background.jpg
+	
+	
+
+After run program, we can press keyboard to adjust and we can see the change on the window.
+		press "1" adjust brightness 
+		press "2" adjust saturation
+		press "3" adjust highlight
+		press "4" adjust shadow
+		press "5" adjust whitebalance
+		press "6" adjust contrast
+
+		press "up" enhance effect
+		press "down" reduce effect 
+
+		press "w" write to file
+		press "u" undo modification	
+		press "o" display original image 
+                press "q" quit
+
+we can use keyboard to adjust image in order to get good cloudy and foggy effect
+And we can save the adjusted image for compose section
+
+=====================================================================
+Second go into "image_compose" directory
+After we got background.jpg and remove this image file to "image_compose" directory.
+we can compose foggy sample image with background.jpg
+
+usage:
+a)make
+	make
+b)run	
+      ./compose foregroundimage backgroundimage resultimage(performs A
+      over B compositing)
+      example: foreground.png background.jpg foggyday.png
+c)press "w" to write to file
+
+foggyday.png is our final result
+
+
